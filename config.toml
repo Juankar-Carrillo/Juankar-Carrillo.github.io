@@ -1,4 +1,4 @@
 baseURL = 'https://juankar-carrillo.github.io/'
-languageCode = 'es-es'
+languageCode = 'en-us'
 title = 'Mi blog'
 theme = 'ananke'
