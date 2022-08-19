@@ -2,3 +2,9 @@ baseURL = 'https://juankar-carrillo.github.io/'
 languageCode = 'en-us'
 title = 'Mi blog'
 theme = 'ananke'
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
