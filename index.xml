@@ -2,14 +2,13 @@
 ·Espacio Aislado de Windows (Windows Sandbox) Activar y Reiniciar Windows
 ·Inicio / Windows Sandbox (Se abre un venta aislada con windows)
 ·Copiar lo que quieras meter a la Sandbox y pegarlo en ella
-·Cuando la cierras se borra todo</description></item><item><title>Crear Laboratorio de Practicas (MetaSploitable2)</title><link>https://juankar-carrillo.github.io/posts/2022-08-18-metasploitable/</link><pubDate>Thu, 18 Aug 2022 19:23:01 +0200</pubDate><guid>https://juankar-carrillo.github.io/posts/2022-08-18-metasploitable/</guid><description>·Instalar VirtualBox
-·Instalar MetaSploitable2 ·User: msfadmin ·Contraseña: msfadmin
-·Instalar Kali_Linux
-·Crear Red NAT en VirtualBox para las 2 máquinas (Preferencias/Red/new[NAT1])
-·Meter las 2 VM en la misma NAT (Config/Red/NAT1 / Avanzado/Modo promiscuo:Permitir todo/Actualizamos MAC y Aceptar)
-·Abrir las 2 VM
-&amp;ldquo;ifconfig&amp;rdquo; en #Metasploit para ver la IP (ej:10.0.2.4)
-·Metemos esa IP en Kali/Firefox
--END-</description></item><item><title>Acortador de URL</title><link>https://juankar-carrillo.github.io/posts/2022-08-18-shortcut/</link><pubDate>Thu, 18 Aug 2022 17:17:07 +0200</pubDate><guid>https://juankar-carrillo.github.io/posts/2022-08-18-shortcut/</guid><description>·Crear cuenta en Bitly.com y añadir URL
+·Cuando la cierras se borra todo</description></item><item><title>Crear Laboratorio de Practicas (MetaSploitable2)</title><link>https://juankar-carrillo.github.io/posts/2022-08-18-metasploitable/</link><pubDate>Thu, 18 Aug 2022 19:23:01 +0200</pubDate><guid>https://juankar-carrillo.github.io/posts/2022-08-18-metasploitable/</guid><description>Instalar VirtualBox
+Instalar MetaSploitable2
+User: msfadmin Contraseña: msfadmin Instalar Kali_Linux
+Crear Red NAT en VirtualBox para las 2 máquinas (Preferencias/Red/new[NAT1])
+Meter las 2 VM en la misma NAT (Config/Red/NAT1 / Avanzado/Modo promiscuo:Permitir todo/Actualizamos MAC y Aceptar)
+Abrir las 2 VM
+ifconfig en #Metasploit para ver la IP (ej: 10.0.2.4)
+Metemos esa IP en Kali/Firefox</description></item><item><title>Acortador de URL</title><link>https://juankar-carrillo.github.io/posts/2022-08-18-shortcut/</link><pubDate>Thu, 18 Aug 2022 17:17:07 +0200</pubDate><guid>https://juankar-carrillo.github.io/posts/2022-08-18-shortcut/</guid><description>·Crear cuenta en Bitly.com y añadir URL
 ·Te la acorta y luego al poner esa URL y el simbolo + veras las entradas &amp;ldquo;bit.ly/3wW4xZQ+&amp;rdquo;
 ·Tambien genera QR Code del enlace</description></item></channel></rss>
