@@ -32,14 +32,14 @@ disableLanguages        = []
   imageStretch          = ""
   removeBlur            = false
   socialShare           = ["twitter", "linkedin", "email"]
-  hideEmptyStats        = false
+  hideEmptyStats        = true
   toc                   = true
   tocWords              = 400
 
   [params.meta]
     description         = "Blog sobre ciberseguridad y tecnología"
     author              = "Juankar"
-    favicon             = false
+    favicon             = true
     svg                 = true
     faviconVersion      = "1"
     msColor             = "#ffffff"
@@ -68,7 +68,7 @@ disableLanguages        = []
 
   [params.sidebar]
     about               = ""
-    postAmount          = 5
+    postAmount          = 0
     categories          = true
     categoriesByCount   = true
 
@@ -85,7 +85,7 @@ disableLanguages        = []
     theme               = "github-light"
 
   [params.staticman]
-    enabled             = true
+    enabled             = false
     api                 = ""  # No Trailing Slash
     gitProvider         = ""
     username            = ""
@@ -113,25 +113,11 @@ disableLanguages        = []
     weight            = 2
 
   [[menu.main]]
-    name              = "Blog"
-    identifier        = "blog"
-    url               = "blog"
-    pre               = "<i class='far fa-newspaper'></i>"
-    weight            = 3
-
-  [[menu.main]]
     name              = "Categorias"
     identifier        = "categories"
     url               = "categories"
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
-
-  [[menu.main]]
-    name              = "Contacto"
-    identifier        = "contact"
-    url               = "contact"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
 
 [Languages]
 
