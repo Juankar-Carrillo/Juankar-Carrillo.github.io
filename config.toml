@@ -1,7 +1,194 @@
 baseURL = 'https://juankar-carrillo.github.io/'
 languageCode = 'en-us'
-title = 'Mi blog'
-theme = 'ananke'
+DefaultContentLanguage  = "es"
+title = 'Cucumber Hack'
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 3
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = []
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+[module]
+  [module.hugoVersion]
+  extended              = true
+  min                   = "0.62.0"
+
+[outputs]
+  home                  = ["html", "json", "rss"]
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = true
+  highlightjsTheme      = ""
+  highlightjsLang       = []
+  viewMorePostsLink     = "blog"
+  readingTime           = true
+  imageStretch          = ""
+  removeBlur            = false
+  socialShare           = ["twitter", "linkedin", "email"]
+  hideEmptyStats        = false
+  toc                   = true
+  tocWords              = 400
+
+  [params.meta]
+    description         = "Blog sobre ciberseguridad y tecnología"
+    author              = "Juankar"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = "Cucumber Hack"
+    dynamicTitles       = true
+    searchMenu          = true
+    shareMenu           = false
+    languageMenu        = false
+
+  [params.intro]
+    header                = "Cucumber Hack"
+    paragraph             = "Blog sobre ciberseguridad y tecnología"
+    rssIntro              = true
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "images/logo.jpg"
+      shape               = "circle"
+      width               = ""
+      alt                 = "Cucumber Hack"
+
+  [params.sidebar]
+    about               = ""
+    postAmount          = 5
+    categories          = true
+    categoriesByCount   = true
+
+  [params.footer]
+    rssFooter           = true
+    socialFooter        = true
+
+  [params.utterances]
+    enabled             = false
+    repo                = ""
+    issueTerm           = "pathname"
+    issueNumber         = ""
+    label               = ""
+    theme               = "github-light"
+
+  [params.staticman]
+    enabled             = true
+    api                 = ""  # No Trailing Slash
+    gitProvider         = ""
+    username            = ""
+    repo                = ""
+    branch              = ""
+
+    [params.staticman.recaptcha]
+      siteKey           = ""
+      encryptedKey      = ""
+
+[menu]
+
+  [[menu.main]]
+    name              = "Principal"
+    identifier        = "home"
+    url               = ""
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "Sobre mi"
+    identifier        = "about"
+    url               = "about"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Blog"
+    identifier        = "blog"
+    url               = "blog"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 3
+
+  [[menu.main]]
+    name              = "Categorias"
+    identifier        = "categories"
+    url               = "categories"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 5
+
+  [[menu.main]]
+    name              = "Contacto"
+    identifier        = "contact"
+    url               = "contact"
+    pre               = "<i class='far fa-envelope'></i>"
+    weight            = 6
+
+[Languages]
+
+  [Languages.es]
+    LanguageCode        = "es"
+    LanguageName        = "Española"
+    weight              = 6
+
+[social]
+  # Coding Communities
+  github                = "Juankar-Carrillo"
+  gitlab                = ""
+  stackoverflow         = "" # User Number
+  bitbucket             = ""
+  jsfiddle              = ""
+  codepen               = ""
+  # Visual Art Communities
+  deviantart            = ""
+  flickr                = ""
+  behance               = ""
+  dribbble              = ""
+  # Publishing Communities
+  wordpress             = ""
+  medium                = ""
+  # Professional/Business Oriented Communities
+  linkedin              = "jkarri"
+  linkedin_company      = ""
+  foursquare            = ""
+  xing                  = ""
+  slideshare            = ""
+  # Social Networks
+  facebook              = ""
+  googleplus            = ""
+  reddit                = ""
+  quora                 = ""
+  youtube               = ""
+  vimeo                 = ""
+  whatsapp              = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat              = ""
+    qq                  = "" # User ID Number
+  instagram             = "cucumberhack"
+  tumblr                = ""
+  twitter               = "CucumberHack"
+  strava                = ""
+  skype                 = ""
+  snapchat              = ""
+  pinterest             = ""
+  telegram              = ""
+  vine                  = ""
+  googlescholar         = ""
+  orcid                 = ""
+  researchgate          = ""
+  keybase               = ""
+  mastodon              = ""
+  # Email
+  email                 = "cucumberhack@gmail.com"
 
 [sitemap]
   changefreq = 'monthly'
