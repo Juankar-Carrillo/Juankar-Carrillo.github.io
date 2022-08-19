@@ -1,8 +1,13 @@
----
-title: "Crear Laboratorio de Practicas (MetaSploitable2)"
-date: 2022-08-18T19:23:01+02:00
-draft: false
----
++++
+title= "Crear Laboratorio de Practicas (MetaSploitable2)"
+description = "Pendiente"
+author = "Juankar"
+date = "2022-08-19"
+tags = ["seguridad", "ejemplo"]
+categories = ["windows"]
+draft = false
++++
+
 
 Instalar [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
