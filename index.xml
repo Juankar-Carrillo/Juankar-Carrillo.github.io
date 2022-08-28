@@ -7,7 +7,9 @@ Crear Red NAT en VirtualBox para las 2 máquinas (Preferencias/Red/new[NAT1])
 Meter las 2 VM en la misma NAT (Config/Red/NAT1 / Avanzado/Modo promiscuo:Permitir todo/Actualizamos MAC y Aceptar)
 Abrir las 2 VM
 ifconfig en #Metasploit para ver la IP (ej: 10.0.2.4)
-Metemos esa IP en Kali/Firefox</description></item><item><title>Sobre mí</title><link>https://juankar-carrillo.github.io/about/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate><guid>https://juankar-carrillo.github.io/about/</guid><description>En progreso</description></item><item><title>Windows SANDBOX (Crear Espacio Aislado)</title><link>https://juankar-carrillo.github.io/blog/2022-08-18-sandbox/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate><guid>https://juankar-carrillo.github.io/blog/2022-08-18-sandbox/</guid><description>Inicio / Activar o desactivar caracteristicas de Windows
+Metemos esa IP en Kali/Firefox</description></item><item><title>Sobre mí</title><link>https://juankar-carrillo.github.io/about/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate><guid>https://juankar-carrillo.github.io/about/</guid><description>Todo mi tiempo lo dedico a aprender (CIBERSEGURIDAD, REDES, CLOUD COMPUTING, BLOCKCHAIN) y a mi familia/amigos.
+Algo que me parece alucinante son los aviones de combate y toda la ingeniería que hay detrás (The future is Scramjet engines)
+Me gusta la natación porque me relaja y puedo desconectar de todo por un rato.</description></item><item><title>Windows SANDBOX (Crear Espacio Aislado)</title><link>https://juankar-carrillo.github.io/blog/2022-08-18-sandbox/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate><guid>https://juankar-carrillo.github.io/blog/2022-08-18-sandbox/</guid><description>Inicio / Activar o desactivar caracteristicas de Windows
 Espacio Aislado de Windows (Windows Sandbox) Activar y Reiniciar Windows
 Inicio / Windows Sandbox (Se abre un venta aislada con windows)
 Copiar lo que quieras meter a la Sandbox y pegarlo en ella
