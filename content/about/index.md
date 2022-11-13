@@ -2,7 +2,7 @@
 title = "Sobre mí"
 description = "Mi nombre es Juan Carlos Carrillo y soy un Apasionado de la Tecnología"
 author = "Juankar"
-date = "2022-08-19"
+date = 2022-08-19
 layout = "about"
 +++
 
