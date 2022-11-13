@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systemctl on Cucumber Hack</title><link>https://juankar-carrillo.github.io/tags/systemctl/</link><description>Recent content in Systemctl on Cucumber Hack</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://juankar-carrillo.github.io/tags/systemctl/index.xml" rel="self" type="application/rss+xml"/><item><title>Comandos SSH</title><link>https://juankar-carrillo.github.io/blog/2022-11-13-ssh/</link><pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate><guid>https://juankar-carrillo.github.io/blog/2022-11-13-ssh/</guid><description>ESTADO DEL SERVICIO
+systemctl status ssh *systemctl es una herramienta de administración central para controlar el sistema init | se usa para administrar, abrir, cerrar y reiniciar servicios en Linux
+INSTALACIÓN SERVIDOR
+apt install openssh-server INSTALACIÓN CLIENTE
+apt install openssh-client INICIAR Y DETENER SERVICIO EN LA SESIÓN ACTUAL
+sudo systemctl start ssh sudo systemctl stop ssh REINICIAR SERVICIO
+sudo systemctl reload ssh sudo systemctl restart ssh sudo systemctl reload-or-restart ssh INICIAR Y DETENER SERVICIO EN EL ARRANQUE</description></item></channel></rss>
