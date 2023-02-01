@@ -67,5 +67,5 @@ rastreadores de aplicaciones de otras empresas**
 
 
 
-[def1]: https://bit.ly/3XNpna1
+[def1]: http://bit.ly/3JxEa4g
 [def2]: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android  
