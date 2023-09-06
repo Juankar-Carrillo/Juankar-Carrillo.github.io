@@ -38,7 +38,9 @@ disableLanguages        = []
 
   [params.meta]
     description         = "Blog sobre ciberseguridad y tecnología"
-    author              = "Juankar"
+    [author]
+    name = "Juankar"
+    location = "Spain"
     favicon             = true
     svg                 = true
     faviconVersion      = "1"
