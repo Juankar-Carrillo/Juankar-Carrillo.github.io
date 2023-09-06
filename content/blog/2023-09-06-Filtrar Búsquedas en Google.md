@@ -1,6 +1,7 @@
 +++
 title= "Filtrar Búsquedas en Google"
 description = "Comandos para Filtrar Búsquedas en Google"
+author = "Juankar"
 date = 2023-09-06
 tags = ["Filtrado"]
 categories = ["Ciberseguridad"]
