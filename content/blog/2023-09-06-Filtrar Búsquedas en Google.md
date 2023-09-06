@@ -1,9 +1,8 @@
 +++
 title= "Filtrar Búsquedas en Google"
 description = "Comandos para Filtrar Búsquedas en Google"
-author = "Juankar"
 date = 2023-09-06
-tags = ["DDG"]
+tags = ["Filtrado"]
 categories = ["Ciberseguridad"]
 draft = false
 [[images]]
@@ -107,5 +106,5 @@ draft = false
 
 **filetype:**      (Buscar por tipos de archivo específicos)  
 
-    filetype:pdf Huawei P30 Pro
+    filetype:pdf Huawei P40 Pro
 
