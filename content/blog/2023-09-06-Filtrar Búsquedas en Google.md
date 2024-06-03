@@ -1,17 +1,4 @@
-+++
-title= "Filtrar Búsquedas en Google"
-description = "Comandos para Filtrar Búsquedas en Google"
-author = "Juankar"
-date = 2024-11-11
-tags = ["Filtrado"]
-categories = ["Ciberseguridad"]
-draft = false
-[[images]]
-  src = "images/filtro_busqueda.jpg"
-  alt = "Frontal"
-  stretch = "horizontal"
 
-+++
 
 **\***      (Comodín, de una única palabra) 
 
