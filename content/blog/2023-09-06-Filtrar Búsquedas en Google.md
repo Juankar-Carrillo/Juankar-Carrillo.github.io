@@ -2,7 +2,7 @@
 title= "Filtrar Búsquedas en Google"
 description = "Comandos para Filtrar Búsquedas en Google"
 author = "Juankar"
-date = 2023-05-07
+date = 2024-11-11
 tags = ["Filtrado"]
 categories = ["Ciberseguridad"]
 draft = false
